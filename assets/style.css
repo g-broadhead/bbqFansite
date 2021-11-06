@@ -1,13 +1,24 @@
-.container {
-  width: auto;
-  height: auto;
-  background-color: #5A352A;
-  display: flex;
-  font-family: 'Zen Kaku Gothic New', sans-serif;
+/* Temporary Classes*/
+
+body {
+  height: 10000px;
 }
 
+/* Navigation Bar classes */
+
+.navStyle {
+  background: #27213C;
+  border: solid;
+  border-color: #A33B20;
+  border-width: 10px;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-size: 25px;
+}
+
+/* Header Classes */
+
 .divyHeader {
-  padding: 60px;
+  padding: 40px;
   text-align: center;
   background: #A6A57A;
   border: solid;
@@ -19,8 +30,18 @@
   flex-direction: row;
 }
 
+/* Container Classes */
+
+.container {
+  width: auto;
+  height: auto;
+  background-color: #5A352A;
+  /* display: flex; */
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
 .divyTop {
-  padding: 60px;
+  padding: 40px;
   text-align: center;
   background: #27213C;
   border: solid;
@@ -29,6 +50,7 @@
   font-size: 20px;
   color: white;
   flex-direction: row;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .divyLeft {
@@ -68,11 +90,48 @@
   flex-direction: column;
 }
 
+/* Container Position Classes */
+
+.carolinaLeftContainer {
+  position: relative;
+  left: -280px;
+  width: 750px;
+  height: auto;
+  text-align: center;
+  background: #A6A57A;
+  border: solid;
+  border-color: #A47963;
+  border-width: 10px;
+  font-size: 25px;
+  color: #27213C;
+  flex-direction: column;
+  background-size: auto;
+}
+
+.carolinaRighttContainer {
+  position: relative;
+  right: -750px;
+  width: 750px;
+  height: 485px;
+  text-align: center;
+  background: #A6A57A;
+  border: solid;
+  border-color: #A47963;
+  border-width: 10px;
+  font-size: 25px;
+  color: #27213C;
+  flex-direction: column;
+  background-size: auto;
+}
+
+/* Adjustment Classes */
+
 .headerAdjust {
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   background: #27213C;
   border: solid;
+  margin-top: 10px;
   border-color: #A33B20;
   border-width: 8px;
   font-size: 35px;
@@ -84,17 +143,37 @@
   margin-left: auto;
   margin-right: auto;
   width: 30%;
-  height:30%;
+  height: 30%;
 }
 
 .columnImgAdjust {
+  padding-top: 55px;
+  padding-left: 55px;
+  /* padding-right: 10px; */
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 500px;
-  height: 300px;
+  width: 650px;
+  height: 400px;
 }
+
+/* Styling Classes */
 
 .center {
   text-align: center;
+}
+
+.txtStyle {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-size: 25px;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.carouselStyle {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  color: white;
+  font-size: 20px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }

@@ -4,6 +4,43 @@ body {
   height: 10000px;
 }
 
+/* .divyLeft {
+  padding: 60px;
+  text-align: center;
+  background: #A6A57A;
+  border: solid;
+  border-color: #A47963;
+  border-width: 10px;
+  font-size: 25px;
+  color: #27213C;
+  flex-direction: column;
+  background-size: auto;
+} */
+
+/* .divyMiddle {
+  padding: 60px;
+  text-align: center;
+  background: #A6A57A;
+  border: solid;
+  border-color: #A47963;
+  border-width: 10px;
+  font-size: 25px;
+  color: #27213C;
+  flex-direction: column;
+} */
+
+/* .divyRight {
+  padding: 60px;
+  text-align: center;
+  background: #A6A57A;
+  border: solid;
+  border-color: #A47963;
+  border-width: 10px;
+  font-size: 25px;
+  color: #27213C;
+  flex-direction: column;
+} */
+
 /* Navigation Bar classes */
 
 .navStyle {
@@ -33,10 +70,10 @@ body {
 /* Container Classes */
 
 .container {
+  display: grid;
   width: auto;
   height: auto;
   background-color: #5A352A;
-  /* display: flex; */
   font-family: 'Zen Kaku Gothic New', sans-serif;
 }
 
@@ -53,50 +90,9 @@ body {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-.divyLeft {
-  padding: 60px;
-  text-align: center;
-  background: #A6A57A;
-  border: solid;
-  border-color: #A47963;
-  border-width: 10px;
-  font-size: 25px;
-  color: #27213C;
-  flex-direction: column;
-  background-size: auto;
-}
-
-.divyMiddle {
-  padding: 60px;
-  text-align: center;
-  background: #A6A57A;
-  border: solid;
-  border-color: #A47963;
-  border-width: 10px;
-  font-size: 25px;
-  color: #27213C;
-  flex-direction: column;
-}
-
-.divyRight {
-  padding: 60px;
-  text-align: center;
-  background: #A6A57A;
-  border: solid;
-  border-color: #A47963;
-  border-width: 10px;
-  font-size: 25px;
-  color: #27213C;
-  flex-direction: column;
-}
-
 /* Container Position Classes */
 
-.leftContainer {
-  position: relative;
-  left: -270px;
-  width: 750px;
-  height: auto;
+.textContainer {
   text-align: center;
   background: #A6A57A;
   border: solid;
@@ -104,21 +100,15 @@ body {
   border-width: 10px;
   font-size: 25px;
   color: #27213C;
-  flex-direction: column;
-  background-size: auto;
 }
 
-.rightContainer {
-  position: absolute;
-  right: 80px;
-  width: 750px;
-  height: 470px;
-  background: #A6A57A;
+.imgContainer {
+  background: #27213C;
   border: solid;
-  border-color: #A47963;
+  border-color: #A33B20;
   border-width: 10px;
   flex-direction: column;
-  background-size: auto;
+  align-items: center;
 }
 
 /* Adjustment Classes */
@@ -137,10 +127,8 @@ body {
 
 .imgAdjust {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-  height: 30%;
+  width: 500px;
+  height: 300px;
 }
 
 .columnImgAdjust {

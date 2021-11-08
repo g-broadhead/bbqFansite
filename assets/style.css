@@ -92,9 +92,9 @@ body {
 
 /* Container Position Classes */
 
-.carolinaLeftContainer {
+.leftContainer {
   position: relative;
-  left: -280px;
+  left: -270px;
   width: 750px;
   height: auto;
   text-align: center;
@@ -108,18 +108,15 @@ body {
   background-size: auto;
 }
 
-.carolinaRighttContainer {
-  position: relative;
-  right: -750px;
+.rightContainer {
+  position: absolute;
+  right: 80px;
   width: 750px;
-  height: 485px;
-  text-align: center;
+  height: 470px;
   background: #A6A57A;
   border: solid;
   border-color: #A47963;
   border-width: 10px;
-  font-size: 25px;
-  color: #27213C;
   flex-direction: column;
   background-size: auto;
 }
